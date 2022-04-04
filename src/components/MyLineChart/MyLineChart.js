@@ -15,7 +15,7 @@ import {
 
 const MyLineChart = () => {
   const [data, setData] = useState([]);
-  console.log(data);
+
   useEffect(() => {
     fetch("data.json")
       .then((res) => res.json())
@@ -37,9 +37,7 @@ const MyLineChart = () => {
             stroke="#8884d8"
             activeDot={{ r: 8 }}
           />
-          {/* <Line type="monotone" dataKey="sell" stroke="#82ca9d" /> */}
         </LineChart>
-        {/* </ResponsiveContainer> */}
       </div>
 
       {/* TwoLevelPieChart */}

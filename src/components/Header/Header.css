@@ -1,7 +1,9 @@
 nav {
   font-size: 22px;
-  background-color: darkslateblue;
-  color: white;
+  background-color: rgb(82, 72, 148);
+  /* color: white; */
   padding: 10px 0;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
