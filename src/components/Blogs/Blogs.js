@@ -19,7 +19,7 @@ const Blogs = () => {
         non-semantic element we use &lt;div&gt; and &lt;span&gt; by this it is
         hard to understand which type of content in this tag. But if we use
         semantic tag like &lt;article&gt; or &lt;header&gt; it is more
-        understandable and also readable.
+        understandable and also readable. It is introduced in HTML 5.
       </p>
     </div>
   );

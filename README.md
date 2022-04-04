@@ -1,10 +1,6 @@
 # Good Reads
 
-## Live Site
-
----
-
-[Good Reads](https://fastidious-axolotl-fde017.netlify.app/)
+## [Live Site](https://fastidious-axolotl-fde017.netlify.app/)
 
 ### `My Work`
 
