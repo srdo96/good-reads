@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       {/* product and its info */}
-      <section className="grid grid-cols-3 mt-14">
+      <section className="grid grid-cols-3 mt-14 mr-8">
         <div className="col-span-2 ml-16">
           <h1 className="text-6xl mt-24 mb-8 font-bold text-red-500">
             The Mirage Of Atheism
@@ -51,12 +51,14 @@ const Home = () => {
               )
           )}
         </div>
-        <Link
-          to="/reviews"
-          className="px-14 py-1 rounded-md bg-blue-600 text-white"
-        >
-          See All Reviews
-        </Link>
+        <div className="text-center mt-10">
+          <Link
+            to="/reviews"
+            className="px-14 py-1 rounded-md bg-blue-600 text-white"
+          >
+            See All Reviews
+          </Link>
+        </div>
       </section>
     </div>
   );
