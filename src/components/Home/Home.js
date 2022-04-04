@@ -28,7 +28,7 @@ const Home = () => {
               className="px-5 py-3 rounded-md bg-blue-300"
               href="https://www.rokomari.com/book/134318/the-divine-reality--god--islam-and-the-mirage-of-atheism"
             >
-              BUY
+              BUY THIS BOOK
             </a>
           </div>
         </div>
