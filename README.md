@@ -1,12 +1,10 @@
-# Project Name
+# Good Reads
 
-Good Reads
-
-## Live Link
+## Live Site
 
 ---
 
-[NO LIVE LINK ADDED YET](https://github.com/facebook/create-react-app)
+[Good Reads](https://fastidious-axolotl-fde017.netlify.app/)
 
 ### `My Work`
 
