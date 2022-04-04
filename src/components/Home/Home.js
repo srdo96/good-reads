@@ -2,9 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import useReviews from "../../hooks/useReviews";
 import ReviewCard from "../ReviewCard/ReviewCard";
-
 const Home = () => {
-  const [reviews] = useReviews([]);
+  const [reviews] = useReviews();
   return (
     <div>
       {/* product and its info */}
@@ -47,7 +46,7 @@ const Home = () => {
         <div>
           {reviews.map(
             (review) =>
-              review.id <= 4 && (
+              review.id < 4 && (
                 <ReviewCard key={review.id} review={review}></ReviewCard>
               )
           )}

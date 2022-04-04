@@ -3,7 +3,7 @@ import React from "react";
 const ReviewCard = ({ review }) => {
   const { name, title, comment, ratting } = review;
   return (
-    <div>
+    <div className="mt-14">
       <article>
         <div className="flex items-center mb-4 space-x-4">
           {/* <img
