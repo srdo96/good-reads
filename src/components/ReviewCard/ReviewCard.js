@@ -2,7 +2,6 @@ import React from "react";
 
 const ReviewCard = ({ review }) => {
   const { name, title, comment, ratting } = review;
-  //   console.log(review);
   return (
     <div>
       <article>

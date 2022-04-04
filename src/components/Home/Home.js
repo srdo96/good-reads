@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import useReviews from "../../hooks/useReviews";
+import ReviewCard from "../ReviewCard/ReviewCard";
 
 const Home = () => {
+  const [reviews] = useReviews([]);
   return (
     <div>
       {/* product and its info */}
@@ -41,6 +44,14 @@ const Home = () => {
         <h1 className=" mt-14 text-center text-5xl font-bold">
           Customer Reviews(3)
         </h1>
+        <div>
+          {reviews.map(
+            (review) =>
+              review.id <= 4 && (
+                <ReviewCard key={review.id} review={review}></ReviewCard>
+              )
+          )}
+        </div>
         <Link
           to="/reviews"
           className="px-14 py-1 rounded-md bg-blue-600 text-white"
